@@ -56,11 +56,12 @@
 
 /* General *******************************************************************/
 html {
-    /* font-family: 'Libre Baskerville', serif; */
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Libre Baskerville', serif; 
+    /* font-family: 'Libre Baskerville', sans-serif; */
 }
 
 body {
+    font-family: 'Libre Baskerville', serif; 
     font-size: 100%;
     margin: 0;
     padding: 0;
@@ -71,6 +72,14 @@ h1 {
     font-weight: 300;
     font-size: 4vw;
     margin-bottom: 0;
+    border-bottom: 2px solid grey;
+}
+
+h2 {
+    font-family: 'Libre Baskerville', serif; 
+    font-weight: 400;
+    font-size: 2.1vw;
+    margin-bottom: 0;
 }
 
 hr {
@@ -79,6 +88,7 @@ hr {
 }
 
 p {
-    font-size: 1.8vw;
-    font-weight: 300;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.4vw;
+    font-weight: 400;
 }
